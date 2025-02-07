@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const userRouter = require("./routes/user.router");
 const blogRouter = require("./routes/blog.router")
 const { checkForAuthenticationCookie } = require("./middleware/auth.middleware");
-const PORT = 8000;
+const PORT = 5000;
 
 const Blog = require('./models/blog.model')
 // Set EJS as the templating engine
